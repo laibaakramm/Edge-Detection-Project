@@ -108,8 +108,17 @@ cv/
 ### Original vs Edge Detected
 
 ![UI Screenshot](assets/ui.png)
+
+### Sobel
+
 ![Sobel](assets/sobel.png)
+
+### Canny
+
 ![Canny](assets/canny.png)
+
+### Laplacian
+
 ![Laplacian](assets/laplacian.png)
 
 ## Author
