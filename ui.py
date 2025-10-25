@@ -3,7 +3,7 @@ import streamlit as st
 def render_ui():
     st.sidebar.header("Controls")
     algo_name = st.sidebar.radio("Select Algorithm", ["Sobel", "Laplacian", "Canny"])
-               
+
     params = {}
     
     if algo_name == "Sobel":

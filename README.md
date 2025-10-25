@@ -105,7 +105,14 @@ cv/
 - **Responsive Layout**: Wide layout optimized for side-by-side image comparison
 - **Error Handling**: User-friendly warnings and information messages
 
+### Original vs Edge Detected
+
+![UI Screenshot](assets/ui.png)
+![Sobel](assets/sobel.png)
+![Canny](assets/canny.png)
+![Laplacian](assets/laplacian.png)
 
 ## Author
 
 Created as part of a Computer Vision course project demonstrating edge detection algorithms.
+
