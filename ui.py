@@ -3,9 +3,9 @@ import streamlit as st
 def render_ui():
     st.sidebar.header("Controls")
     algo_name = st.sidebar.radio("Select Algorithm", ["Sobel", "Laplacian", "Canny"])
-
+               
     params = {}
-
+    
     if algo_name == "Sobel":
         params["ksize"] = st.sidebar.slider("Kernel Size", 1, 7, 3, step=2)
         params["direction"] = st.sidebar.radio("Gradient Direction", ["X", "Y", "Both"])

@@ -10,7 +10,7 @@ def apply_sobel(image, params):
     if params["direction"] == "X":
         dx, dy = 1, 0
     elif params["direction"] == "Y":
-        dx, dy = 0, 1
+        dx, dy = 0, 1   
     else:
         dx, dy = 1, 1
 
